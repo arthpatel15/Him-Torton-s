@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+#mainHeading {
+    text-align: center;
+    font-family: 'Damion',
+        cursive;
+    color: rgb(189, 72, 72);
+}
+
+#span1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    margin: 1rem;
+    padding: 0.5rem;
+    flex: 0 1 15%;
+}
+
+.btn img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.bill {
+    color: blanchedalmond;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    display: flex;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+
+}
+
+.left {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 8rem;
+}
+
+.right {
+    justify-content: end;
+    margin-left: 15rem;
+}
+
+#coffeeNote {
+    color: red;
+}
